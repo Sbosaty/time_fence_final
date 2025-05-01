@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "378584748290",
+    "project_id": "main-time-fence",
+    "storage_bucket": "main-time-fence.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378584748290:android:82f8bdb08998af5bc1b21b",
+        "android_client_info": {
+          "package_name": "com.example.time_fence"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcBTz44f6OJEPQYc7Vw_WWuaGXyPAuwSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

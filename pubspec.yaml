@@ -1,0 +1,70 @@
+name: time_fence
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.13.0
+  firebase_auth: ^5.5.3
+  cloud_firestore: ^5.6.7
+  flutter_bloc: ^9.1.0
+  fluttertoast: ^8.2.4
+  uuid: ^4.3.3
+  file_picker: ^10.1.2
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.2.2
+  svg_flutter: ^0.0.1
+  font_awesome_flutter: ^10.6.0
+  persistent_bottom_nav_bar:
+  image_picker: ^1.0.7
+  geolocator: ^14.0.0
+  flutter_launcher_icons: ^0.14.3
+
+dependency_overrides:
+  geolocator_android: 4.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/image/logo.png"
+
+  flutter_lints: ^4.0.0
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/image/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-ExtraBold.ttf
+        - asset: assets/font/Poppins-Black.ttf
+        - asset: assets/font/Poppins-BlackItalic.ttf
+        - asset: assets/font/Poppins-ExtraBoldItalic.ttf
+        - asset: assets/font/Poppins-Bold.ttf
+        - asset: assets/font/Poppins-BoldItalic.ttf
+        - asset: assets/font/Poppins-ExtraLight.ttf
+        - asset: assets/font/Poppins-Light.ttf
+        - asset: assets/font/Poppins-ExtraLightItalic.ttf
+        - asset: assets/font/Poppins-Italic.ttf
+        - asset: assets/font/Poppins-LightItalic.ttf
+        - asset: assets/font/Poppins-Medium.ttf
+        - asset: assets/font/Poppins-MediumItalic.ttf
+        - asset: assets/font/Poppins-Regular.ttf
+        - asset: assets/font/Poppins-SemiBold.ttf
+        - asset: assets/font/Poppins-SemiBoldItalic.ttf
+        - asset: assets/font/Poppins-Thin.ttf
+        - asset: assets/font/Poppins-ThinItalic.ttf
